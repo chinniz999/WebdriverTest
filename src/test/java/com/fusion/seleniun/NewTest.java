@@ -9,11 +9,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 //import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
 
-@Test
-public class NewTest {
 
+public class NewTest {
+	
+	@Test
 	public void test2(){
 		System.out.println("welcome to testing");
+	
 	}
 	
 	/*WebDriver driver;	

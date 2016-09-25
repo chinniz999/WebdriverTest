@@ -9,7 +9,7 @@ public class Browser {
 
 	WebDriver driver;
 	
-	//@Test
+	@Test
 	public void setBrowser() {
 
 		String brow = System.getProperty("browser");

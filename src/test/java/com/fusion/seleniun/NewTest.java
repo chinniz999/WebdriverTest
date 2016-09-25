@@ -1,19 +1,33 @@
 package com.fusion.seleniun;
 
 import org.testng.annotations.Test;
-import org.testng.annotations.BeforeClass;
+
+import com.fusion.selenium.utility.Browser;
+
 import org.testng.annotations.BeforeTest;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-//import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
 
 public class NewTest {
 
+	WebDriver driver;
 	@Test
 	public void test2() {
-		System.out.println("welcome to Selenium testing");
-
+	String title =	driver.getTitle();
+	System.out.println("title is"+title);
+	}
+	
+	@BeforeTest
+	public void LanchBrowser(){
+		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		driver = new ChromeDriver();	
+		driver.get("http:\\www.paytm.com");
+	}
+	
+	@AfterTest
+	public void CloseBrowser(){
+		driver.close();
 	}
 }

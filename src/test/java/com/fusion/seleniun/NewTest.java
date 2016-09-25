@@ -9,31 +9,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 //import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
 
-
 public class NewTest {
-	
+
 	@Test
-	public void test2(){
-		System.out.println("welcome to testing");
-	
+	public void test2() {
+		System.out.println("welcome to Selenium testing");
+
 	}
-	
-	/*WebDriver driver;	
-	@Test				
-	public void testEasy() {	
-		driver.get("http://www.guru99.com/selenium-tutorial.html");  
-		String title = driver.getTitle();				 
-		Assert.assertTrue(title.contains("Free Selenium Tutorials")); 		
-	}	
-	
-	@BeforeTest
-	public void beforeTest() {	
-	//	System.setProperty("webdriver.chrome.driver", "F:\\JenkinsSample\\chromedriver.exe");
-		//ChromeDriver driver = new ChromeDriver();
-		WebDriver driver = new FirefoxDriver();
-	}		
-	@AfterTest
-	public void afterTest() {
-		driver.close();			
-	}	*/	
-}	
+}

@@ -1,15 +1,15 @@
-package com.fusion.selenium.utility;
+/*package com.fusion.selenium.utility;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.Test;
+//import org.testng.annotations.Test;
 
 public class Browser {
 
 	WebDriver driver;
 	
-	@Test
+	//@Test
 	public void setBrowser() {
 
 		String brow = System.getProperty("browser");
@@ -27,3 +27,4 @@ public class Browser {
 	}
 
 }
+*/

@@ -25,12 +25,12 @@
 				<configuration>
 					<testFailureIgnore>true</testFailureIgnore>
 					
-					<systemPropertyVariables>
+<!-- 					<systemPropertyVariables>
 						
 						<browser>${browser}</browser>
 						
 					</systemPropertyVariables>
-					
+ -->					
 					<forkCount>0</forkCount>
 					<reuseForks>true</reuseForks>
 					<argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
@@ -43,7 +43,7 @@
 						<echo>the suite file name is ${SuiteName} </echo>
 					</property>
 					<suiteXmlFiles>
-						<suiteXmlFile>${SuiteName}</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

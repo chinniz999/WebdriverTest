@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="53877" started-at="2016-09-25T07:05:37Z" finished-at="2016-09-25T07:06:31Z">
+  <suite name="Suite" duration-ms="52842" started-at="2016-09-25T13:49:15Z" finished-at="2016-09-25T13:50:08Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="53877" started-at="2016-09-25T07:05:37Z" finished-at="2016-09-25T07:06:31Z">
+    <test name="Test" duration-ms="52842" started-at="2016-09-25T13:49:15Z" finished-at="2016-09-25T13:50:08Z">
       <class name="com.fusion.seleniun.NewTest">
-        <test-method status="PASS" signature="LanchBrowser()[pri:0, instance:com.fusion.seleniun.NewTest@7fedfe27]" name="LanchBrowser" is-config="true" duration-ms="52358" started-at="2016-09-25T12:35:37Z" finished-at="2016-09-25T12:36:30Z">
+        <test-method status="PASS" signature="LanchBrowser()[pri:0, instance:com.fusion.seleniun.NewTest@12958360]" name="LanchBrowser" is-config="true" duration-ms="52017" started-at="2016-09-25T19:19:15Z" finished-at="2016-09-25T19:20:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LanchBrowser -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.fusion.seleniun.NewTest@7fedfe27]" name="test2" duration-ms="503" started-at="2016-09-25T12:36:30Z" finished-at="2016-09-25T12:36:30Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.fusion.seleniun.NewTest@12958360]" name="test2" duration-ms="256" started-at="2016-09-25T19:20:07Z" finished-at="2016-09-25T19:20:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.fusion.seleniun.NewTest@7fedfe27]" name="CloseBrowser" is-config="true" duration-ms="850" started-at="2016-09-25T12:36:30Z" finished-at="2016-09-25T12:36:31Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.fusion.seleniun.NewTest@12958360]" name="CloseBrowser" is-config="true" duration-ms="524" started-at="2016-09-25T19:20:08Z" finished-at="2016-09-25T19:20:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->

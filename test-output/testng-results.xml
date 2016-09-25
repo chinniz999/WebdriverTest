@@ -2,15 +2,23 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="95" started-at="2016-09-24T06:50:32Z" finished-at="2016-09-24T06:50:32Z">
+  <suite name="Suite" duration-ms="53877" started-at="2016-09-25T07:05:37Z" finished-at="2016-09-25T07:06:31Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="95" started-at="2016-09-24T06:50:32Z" finished-at="2016-09-24T06:50:32Z">
+    <test name="Test" duration-ms="53877" started-at="2016-09-25T07:05:37Z" finished-at="2016-09-25T07:06:31Z">
       <class name="com.fusion.seleniun.NewTest">
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.fusion.seleniun.NewTest@51081592]" name="test2" duration-ms="38" started-at="2016-09-24T12:20:32Z" finished-at="2016-09-24T12:20:32Z">
+        <test-method status="PASS" signature="LanchBrowser()[pri:0, instance:com.fusion.seleniun.NewTest@7fedfe27]" name="LanchBrowser" is-config="true" duration-ms="52358" started-at="2016-09-25T12:35:37Z" finished-at="2016-09-25T12:36:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LanchBrowser -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.fusion.seleniun.NewTest@7fedfe27]" name="test2" duration-ms="503" started-at="2016-09-25T12:36:30Z" finished-at="2016-09-25T12:36:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.fusion.seleniun.NewTest@7fedfe27]" name="CloseBrowser" is-config="true" duration-ms="850" started-at="2016-09-25T12:36:30Z" finished-at="2016-09-25T12:36:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
       </class> <!-- com.fusion.seleniun.NewTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

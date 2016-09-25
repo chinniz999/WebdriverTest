@@ -5,8 +5,8 @@
     <classes>
       <class name="com.fusion.seleniun.NewTest">
         <methods>
-          <include name="beforeTest"/>
-          <include name="testEasy"/>
+          <include name="test2"/>
+          <include name="LanchBrowser"/>
         </methods>
       </class> <!-- com.fusion.seleniun.NewTest -->
     </classes>

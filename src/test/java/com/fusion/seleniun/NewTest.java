@@ -19,11 +19,16 @@ public class NewTest {
 	System.out.println("title is"+title);
 	}
 	
+	public void windows(){
+		
+	}
+	
 	@BeforeTest
 	public void LanchBrowser(){
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver = new ChromeDriver();	
 		driver.get("http:\\www.paytm.com");
+		
 	}
 	
 	@AfterTest

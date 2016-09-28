@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Suite]">
+<suite name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="com.fusion.seleniun.NewTest">
+      <class name="com.fusion.seleniun.UserInterations">
         <methods>
-          <include name="test2"/>
-          <include name="LanchBrowser"/>
+          <include name="lanching"/>
+          <include name="TextBox"/>
         </methods>
-      </class> <!-- com.fusion.seleniun.NewTest -->
+      </class> <!-- com.fusion.seleniun.UserInterations -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

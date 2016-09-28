@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="52842" started-at="2016-09-25T13:49:15Z" finished-at="2016-09-25T13:50:08Z">
+  <suite name="Default suite" duration-ms="277723" started-at="2016-09-28T08:16:48Z" finished-at="2016-09-28T08:21:26Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="52842" started-at="2016-09-25T13:49:15Z" finished-at="2016-09-25T13:50:08Z">
-      <class name="com.fusion.seleniun.NewTest">
-        <test-method status="PASS" signature="LanchBrowser()[pri:0, instance:com.fusion.seleniun.NewTest@12958360]" name="LanchBrowser" is-config="true" duration-ms="52017" started-at="2016-09-25T19:19:15Z" finished-at="2016-09-25T19:20:07Z">
+    <test name="Default test" duration-ms="277723" started-at="2016-09-28T08:16:48Z" finished-at="2016-09-28T08:21:26Z">
+      <class name="com.fusion.seleniun.UserInterations">
+        <test-method status="PASS" signature="lanching()[pri:0, instance:com.fusion.seleniun.UserInterations@1c9b0314]" name="lanching" is-config="true" duration-ms="15807" started-at="2016-09-28T13:46:48Z" finished-at="2016-09-28T13:47:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LanchBrowser -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.fusion.seleniun.NewTest@12958360]" name="test2" duration-ms="256" started-at="2016-09-25T19:20:07Z" finished-at="2016-09-25T19:20:08Z">
+        </test-method> <!-- lanching -->
+        <test-method status="PASS" signature="TextBox()[pri:0, instance:com.fusion.seleniun.UserInterations@1c9b0314]" name="TextBox" duration-ms="1486" started-at="2016-09-28T13:47:04Z" finished-at="2016-09-28T13:47:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.fusion.seleniun.NewTest@12958360]" name="CloseBrowser" is-config="true" duration-ms="524" started-at="2016-09-25T19:20:08Z" finished-at="2016-09-25T19:20:08Z">
+        </test-method> <!-- TextBox -->
+        <test-method status="PASS" signature="RadioButton()[pri:0, instance:com.fusion.seleniun.UserInterations@1c9b0314]" name="RadioButton" duration-ms="1299" started-at="2016-09-28T13:47:05Z" finished-at="2016-09-28T13:47:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-      </class> <!-- com.fusion.seleniun.NewTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- RadioButton -->
+        <test-method status="PASS" signature="checkBox()[pri:0, instance:com.fusion.seleniun.UserInterations@1c9b0314]" name="checkBox" duration-ms="1549" started-at="2016-09-28T13:47:07Z" finished-at="2016-09-28T13:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method status="PASS" signature="DropDown()[pri:0, instance:com.fusion.seleniun.UserInterations@1c9b0314]" name="DropDown" duration-ms="14667" started-at="2016-09-28T13:47:08Z" finished-at="2016-09-28T13:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropDown -->
+        <test-method status="PASS" signature="DragNdrop()[pri:0, instance:com.fusion.seleniun.UserInterations@1c9b0314]" name="DragNdrop" duration-ms="242634" started-at="2016-09-28T13:47:23Z" finished-at="2016-09-28T13:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DragNdrop -->
+        <test-method status="PASS" signature="closing()[pri:0, instance:com.fusion.seleniun.UserInterations@1c9b0314]" name="closing" is-config="true" duration-ms="232" started-at="2016-09-28T13:51:26Z" finished-at="2016-09-28T13:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- com.fusion.seleniun.UserInterations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

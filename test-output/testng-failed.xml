@@ -3,12 +3,15 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.fusion.seleniun.NewTest">
+      <class name="com.fusion.seleniun.UserInterations">
         <methods>
-          <include name="test2"/>
-          <include name="LanchBrowser"/>
+          <include name="lanching"/>
+          <include name="closing"/>
+          <include name="TextBox"/>
+          <include name="RadioButton"/>
+          <include name="checkBox"/>
         </methods>
-      </class> <!-- com.fusion.seleniun.NewTest -->
+      </class> <!-- com.fusion.seleniun.UserInterations -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

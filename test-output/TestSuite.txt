@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 53.939 sec - in TestSuite
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 18.011 sec <<< FAILURE! - in TestSuite
+TextBox(com.fusion.seleniun.UserInterations)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.fusion.seleniun.UserInterations.TextBox(UserInterations.java:16)
+
+closing(com.fusion.seleniun.UserInterations)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.fusion.seleniun.UserInterations.closing(UserInterations.java:34)
+

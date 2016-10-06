@@ -27,4 +27,10 @@ public class ExcelUtil {
 	public int excel_get_rows(){
 		return ExcelSheet.getPhysicalNumberOfRows();
 	}
+	
+	//get the data from excel cell
+	public String getCellDataAsString(int rowNum, int colNum){
+		String cellData = ExcelSheet.getRow(rowNum).getCell(colNum).getStringCellValue();
+		return cellData;
+	}
 }

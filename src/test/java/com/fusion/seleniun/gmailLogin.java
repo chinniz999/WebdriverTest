@@ -34,8 +34,9 @@ public class gmailLogin {
 	@Test(priority = 1)
 	public void Test_RefreshGmail() {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.findElement(By.xpath("//body")).sendKeys(Keys.F5);
+		//driver.findElement(By.xpath("//body")).sendKeys(Keys.F5);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.findElement(By.xpath("//body")).sendKeys(Keys.F5);
 	}
 
 	
@@ -51,9 +52,13 @@ public class gmailLogin {
 		rightClick.perform();
 		// read the message
 		myaction.moveToElement(driver.findElement(By.id(":lo"))).click().build().perform();
+			
+		
 
 		// logout
 		myaction.moveToElement(driver.findElement(By.xpath("//span[@class='gb_7a gbii']"))).click().build().perform();
+		myaction.moveByOffset(0, 0);
+		myaction.moveByOffset(20, 20);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		myaction.moveToElement(driver.findElement(By.id("gb_71"))).click().build().perform();
 		

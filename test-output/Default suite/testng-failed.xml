@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.fusion.seleniun.UserInterations">
+      <class name="com.fusion.dataDriven.DDgmailLoin">
         <methods>
-          <include name="lanching"/>
-          <include name="closing"/>
-          <include name="TextBox"/>
-          <include name="RadioButton"/>
-          <include name="checkBox"/>
+          <include name="beforeTest"/>
+          <include name="gmailLoin" invocation-numbers="1"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- com.fusion.seleniun.UserInterations -->
+      </class> <!-- com.fusion.dataDriven.DDgmailLoin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -10,6 +10,8 @@ public class ExcelDemo {
 
 		ExcelUtil excelData = new ExcelUtil("C:\\Users\\madhubs\\Desktop\\Login Credential.xlsx","Sheet1");
 		System.out.println("Number of Rows: "+excelData.excel_get_rows());
+		System.out.println(excelData.getCellDataAsString(1, 1));
+		System.out.println(excelData.getCellDataAsString(1, 2));
 	}
 
 }

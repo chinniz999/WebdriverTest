@@ -1,7 +1,7 @@
 package com.fusion.selenium.utility;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+//import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -20,7 +20,6 @@ public class ExcelUtil {
 		//Access require excel sheet
 		ExcelWbook = new XSSFWorkbook(ExcelFile);
 		ExcelSheet = ExcelWbook.getSheet(SheetName);
-		ExcelSheet.getPhysicalNumberOfRows();
 	}
 	
 	//set the row count of excel file
@@ -28,6 +27,11 @@ public class ExcelUtil {
 		return ExcelSheet.getPhysicalNumberOfRows();
 	}
 	
+	//set the column count of excel file
+		public int excel_get_column(){
+			return ExcelSheet.getRow(0).getPhysicalNumberOfCells();
+		}
+		
 	//get the data from excel cell
 	public String getCellDataAsString(int rowNum, int colNum){
 		String cellData = ExcelSheet.getRow(rowNum).getCell(colNum).getStringCellValue();

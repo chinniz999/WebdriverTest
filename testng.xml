@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="com.fusion.seleniun.gmailLogin"/>
+      <class name="com.fusion.seleniun.DDgmailLoin"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

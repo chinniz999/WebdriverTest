@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
+<suite verbose="0" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="com.fusion.seleniun.UserInterations">
+      <class name="com.fusion.seleniun.gmailLogin">
         <methods>
-          <include name="lanching"/>
-          <include name="TextBox"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="Test_gmailLogOut"/>
         </methods>
-      </class> <!-- com.fusion.seleniun.UserInterations -->
+      </class> <!-- com.fusion.seleniun.gmailLogin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

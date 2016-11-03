@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Suite]">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+  </listeners>
   <test name="Test(failed)">
     <classes>
-      <class name="com.fusion.seleniun.gmailLogin">
+      <class name="com.fusion.dataDriven.DDgmailLoin">
         <methods>
-          <include name="afterTest"/>
           <include name="beforeTest"/>
-          <include name="Test_gmailLogOut"/>
+          <include name="gmailLoin" invocation-numbers="1"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- com.fusion.seleniun.gmailLogin -->
+      </class> <!-- com.fusion.dataDriven.DDgmailLoin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

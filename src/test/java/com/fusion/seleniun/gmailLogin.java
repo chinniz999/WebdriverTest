@@ -56,9 +56,10 @@ public class gmailLogin {
 		
 
 		// logout
-		myaction.moveToElement(driver.findElement(By.xpath("//span[@class='gb_7a gbii']"))).click().build().perform();
-		myaction.moveByOffset(0, 0);
-		myaction.moveByOffset(20, 20);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		myaction.moveToElement(driver.findElement(By.xpath("//a[@href='https://accounts.google.com/SignOutOptions?hl=en&continue=https://mail.google.com/mail&service=mail']"))).click().build().perform();
+		//myaction.moveByOffset(0, 0);
+		//myaction.moveByOffset(20, 20);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		myaction.moveToElement(driver.findElement(By.id("gb_71"))).click().build().perform();
 		

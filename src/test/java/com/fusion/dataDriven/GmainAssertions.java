@@ -15,4 +15,12 @@ public class GmainAssertions {
 			System.out.println(a);
 		}
 	}
+	
+	public static void AssertFail(Boolean fail){
+		try{
+			Assert.assertFalse(fail);
+		}catch(Exception e){
+			System.out.println(e);
+		}
+	}
 }

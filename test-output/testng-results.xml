@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53081" started-at="2016-10-10T10:43:14Z" finished-at="2016-10-10T10:44:07Z">
+  <suite name="Suite" duration-ms="36262" started-at="2016-10-20T09:36:59Z" finished-at="2016-10-20T09:37:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53081" started-at="2016-10-10T10:43:14Z" finished-at="2016-10-10T10:44:07Z">
+    <test name="Test" duration-ms="36262" started-at="2016-10-20T09:36:59Z" finished-at="2016-10-20T09:37:35Z">
       <class name="com.fusion.dataDriven.DDgmailLoin">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.fusion.dataDriven.DDgmailLoin@3bfdc050]" name="beforeTest" is-config="true" duration-ms="13945" started-at="2016-10-10T16:13:14Z" finished-at="2016-10-10T16:13:28Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.fusion.dataDriven.DDgmailLoin@7c29daf3]" name="beforeTest" is-config="true" duration-ms="10119" started-at="2016-10-20T15:06:59Z" finished-at="2016-10-20T15:07:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="gmailLoin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.fusion.dataDriven.DDgmailLoin@3bfdc050]" name="gmailLoin" duration-ms="19475" started-at="2016-10-10T16:13:30Z" data-provider="Credentials" finished-at="2016-10-10T16:13:49Z">
+        <test-method status="PASS" signature="gmailLoin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.fusion.dataDriven.DDgmailLoin@7c29daf3]" name="gmailLoin" duration-ms="16164" started-at="2016-10-20T15:07:10Z" data-provider="Credentials" finished-at="2016-10-20T15:07:26Z">
           <params>
             <param index="0">
               <value>
@@ -32,11 +32,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gmailLoin -->
-        <test-method status="FAIL" signature="gmailLoin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.fusion.dataDriven.DDgmailLoin@3bfdc050]" name="gmailLoin" duration-ms="18093" started-at="2016-10-10T16:13:49Z" data-provider="Credentials" finished-at="2016-10-10T16:14:07Z">
+        <test-method status="FAIL" signature="gmailLoin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.fusion.dataDriven.DDgmailLoin@7c29daf3]" name="gmailLoin" duration-ms="8922" started-at="2016-10-20T15:07:26Z" data-provider="Credentials" finished-at="2016-10-20T15:07:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[bsm.bills@gmail.com]]>
+                <![CDATA[bsmbills123@gmail.com]]>
               </value>
             </param>
             <param index="1">
@@ -50,40 +50,16 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.junit.ComparisonFailure">
             <message>
-              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//span[@class='gb_7a gbii']"}
-Command duration or timeout: 10.15 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'srinivas', ip: '192.168.70.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=32.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: bdf757b2-6a54-4214-95fe-a65be553f85a
-*** Element info: {Using=xpath, value=//span[@class='gb_7a gbii']}]]>
+              <![CDATA[expected:<Gma[]> but was:<Gma[il]>]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//span[@class='gb_7a gbii']"}
-Command duration or timeout: 10.15 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'srinivas', ip: '192.168.70.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=32.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: bdf757b2-6a54-4214-95fe-a65be553f85a
-*** Element info: {Using=xpath, value=//span[@class='gb_7a gbii']}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at com.fusion.dataDriven.DDgmailLoin.gmailLoin(DDgmailLoin.java:38)
+              <![CDATA[org.junit.ComparisonFailure: expected:<Gma[]> but was:<Gma[il]>
+	at org.junit.Assert.assertEquals(Assert.java:125)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at com.fusion.dataDriven.GmainAssertions.AssertEqualsg(GmainAssertions.java:10)
+	at com.fusion.dataDriven.DDgmailLoin.gmailLoin(DDgmailLoin.java:62)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -108,24 +84,17 @@ Session ID: bdf757b2-6a54-4214-95fe-a65be553f85a
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//span[@class='gb_7a gbii']"}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.45.0', revision: '5017cb8e7ca8e37638dc3091b2440b90a1d8686f', time: '2015-02-27 09:10:26'
-System info: host: 'srinivas', ip: '192.168.70.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_65'
-Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/WINDOWS/TEMP/anonymous4291439642792987715webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/WINDOWS/TEMP/anonymous4291439642792987715webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.junit.ComparisonFailure -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gmailLoin -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.fusion.dataDriven.DDgmailLoin@3bfdc050]" name="afterTest" is-config="true" duration-ms="141" started-at="2016-10-10T16:14:07Z" finished-at="2016-10-10T16:14:07Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.fusion.dataDriven.DDgmailLoin@7c29daf3]" name="afterTest" is-config="true" duration-ms="131" started-at="2016-10-20T15:07:35Z" finished-at="2016-10-20T15:07:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.fusion.dataDriven.DDgmailLoin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
